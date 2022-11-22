@@ -1,2 +1,4 @@
 Name: CommDrivers
 Type: FolderType
+Children:
+- File: EtherNet_IPDriver/EtherNet_IPDriver.yaml

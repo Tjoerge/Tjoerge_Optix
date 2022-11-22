@@ -29,5 +29,17 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:EthernetIP'
+   Module: FTOptix.EthernetIP
+   Version: 1.0
  Nodes:
  - File: Nodes/Tjoerge_Optix.yaml

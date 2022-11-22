@@ -1,0 +1,4 @@
+Name: EtherNet_IPDriver
+Type: EthernetIPDriver
+Children:
+- File: Logix_Echo/Logix_Echo.yaml
