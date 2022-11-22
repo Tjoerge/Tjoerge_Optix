@@ -1,0 +1,19 @@
+Name: Object Types
+Type: FolderType
+Children:
+- Name: Model_MotorType
+  Id: g=3641b3986f104b8780e26cd2000b224a
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: SetSpeed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CmdOffOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

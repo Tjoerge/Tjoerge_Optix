@@ -119,6 +119,7 @@ Children:
         DataType: String
         Value: "Tank1.SetPoint"
   - Name: M1102
+    Id: g=b540e58282440f907127457785cdc779
     Type: Motor
     Children:
     - Name: Power
@@ -167,6 +168,7 @@ Children:
         DataType: String
         Value: "M1102.Status"
   - Name: M1103
+    Id: g=431dcacbb6e763f190fb129ac6b9b6c6
     Type: Motor
     Children:
     - Name: Power
