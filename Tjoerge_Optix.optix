@@ -41,5 +41,17 @@ Project:
    Uri: 'urn:FTOptix:EthernetIP'
    Module: FTOptix.EthernetIP
    Version: 1.0
+  11:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  12:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  13:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
  Nodes:
  - File: Nodes/Tjoerge_Optix.yaml

@@ -42,7 +42,7 @@ Children:
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"b27336d218b1eb8c1f45940d37fb1f40","Namespace":7}
+    Value: {"IdType":2,"Id":"ec8a019feac05e277f496aa6bd261b87","Namespace":7}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -68,23 +68,7 @@ Children:
       Value: {"Id":14,"Namespace":1}
   - Name: Sessions
     Type: BaseObjectType
-- Name: MainWindow
-  Id: g=b27336d218b1eb8c1f45940d37fb1f40
-  Supertype: Window
-  Children:
-  - Name: Width
-    Type: BaseDataVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 400.0
-  - Name: Height
-    Type: BaseDataVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 400.0
-- File: Templates/Templates.yaml
-- File: Displays/Displays.yaml
-- Name: WebPresentationEngine1
+- Name: WebPresentationEngine
   Type: ns=9;PresentationEngine
   Children:
   - Name: Protocol
@@ -201,3 +185,145 @@ Children:
         DataType: Boolean
         AccessLevel: Read
         Value: false
+- Name: MainWindow_Navigation_Panel
+  Id: g=b27336d218b1eb8c1f45940d37fb1f40
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+- Name: MainWindow1
+  Id: g=ec8a019feac05e277f496aa6bd261b87
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: NavigationPanel
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"6532252527154b1ed824d96a6f9c1d99","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel2
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"ccbb70186ebcbe74ebfbd2ed5088666a","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"b782eb61f91df81821c9ca07c1819274","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":6,"Namespace":3}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+- Name: MainWindow2
+  Id: g=6d84de0cba0460758483c7ae33b911d0
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+- Name: MainWindow3
+  Id: g=6f2b4f3db49beeac7b9cfeb5b50fd010
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+- File: Templates/Templates.yaml
+- File: Displays/Displays.yaml
