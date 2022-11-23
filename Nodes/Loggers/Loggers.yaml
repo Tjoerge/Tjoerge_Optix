@@ -81,3 +81,120 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+- Name: Datalogger New
+  Id: g=2ef96cc58cc8467049ae0f0e2a3d45c8
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Id: g=ef6cda964c05cd2b296648b21abd03cf
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"128d0d0bcdc8731e677343dc7ca2ab85","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":12}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Datalogger Tags/Variable1"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Variable3
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Datalogger Tags/Variable3"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Variable2
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Datalogger Tags/Variable2"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+  - Class: Reference
+    Target: ns=11;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: TableName
+    Type: PropertyType
+    DataType: String
+    Value: "My_New_Datalogger"
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:5.0000000"
