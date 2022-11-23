@@ -1,4 +1,5 @@
 Name: Model
+Id: g=a52fa56e2694a0f5d8d2615407544a6a
 Type: FolderType
 Children:
 - File: Object Types/Object Types.yaml
@@ -7,3 +8,23 @@ Children:
 - File: Converters/Converters.yaml
 - File: Datalogger Tags/Datalogger Tags.yaml
 - File: Alarm Tags/Alarm Tags.yaml
+- Name: Variable1
+  Id: g=5b11e754e0a90d4d0c312327cc3d1ea6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=2d6a8d3530bd056884e6edd85b4d8cec
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable2
+  Id: g=4fa6a9920baacb2bdb2c63001d945426
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable4
+  Id: g=bd27c96c205e550fbb2e6e482e58da4b
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0

@@ -138,6 +138,82 @@ Children:
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=12;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=12;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=12;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=12;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Variable1
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /Variable3
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Variable2
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: /Variable4
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+    - Name: RecipeSchema
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=12;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=12;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=12;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=12;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Variable1
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /Variable3
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Variable2
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: /Variable4
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
   - Class: Reference
     Target: ns=13;i=30
     Direction: Forward
