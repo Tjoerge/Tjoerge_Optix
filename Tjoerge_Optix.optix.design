@@ -23,5 +23,13 @@ Project:
    Uri: 'urn:FTOptix:EthernetIPTagImporter'
    Module: FTOptix.EthernetIPTagImporter
    Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
  Nodes:
  - File: DesignTimeNodes/CommDrivers/EtherNet_IPDriver/Logix_Echo/TagImporter.yaml
