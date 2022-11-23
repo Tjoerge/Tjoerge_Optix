@@ -74,7 +74,7 @@ Children:
   - Name: Protocol
     Type: BaseDataVariableType
     DataType: Protocol
-    Value: 1
+    Value: 0
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
@@ -82,7 +82,7 @@ Children:
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
+    Value: 8443
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -185,6 +185,10 @@ Children:
         DataType: Boolean
         AccessLevel: Read
         Value: false
+  - Name: MaxNumberOfConnections
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 10
 - Name: MainWindow_Navigation_Panel
   Id: g=b27336d218b1eb8c1f45940d37fb1f40
   Supertype: Window

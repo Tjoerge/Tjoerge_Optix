@@ -1,0 +1,13 @@
+Name: Internal Tags
+Type: FolderType
+Children:
+- Name: Analog
+  Id: g=682c153834da6f00baab8c6dc7f3062e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Bolean
+  Id: g=c9669e268005368291c12b40025a490e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

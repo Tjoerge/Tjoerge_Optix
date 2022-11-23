@@ -3,3 +3,4 @@ Type: FolderType
 Children:
 - File: Object Types/Object Types.yaml
 - File: Motors/Motors.yaml
+- File: Internal Tags/Internal Tags.yaml
