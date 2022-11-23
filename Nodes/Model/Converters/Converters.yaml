@@ -1,0 +1,16 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=1a4c631db7ec8d7bf4600b4923babcc4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 20
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 30
