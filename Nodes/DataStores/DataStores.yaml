@@ -138,6 +138,10 @@ Children:
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_da-DK'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
     - Name: RecipeSchema1
       Type: SQLiteStoreTable
       Children:

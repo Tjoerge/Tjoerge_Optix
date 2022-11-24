@@ -1,0 +1,23 @@
+Name: CSharp_Created
+Type: FolderType
+Children:
+- Name: Variabel 0
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: Variabel 1
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: Variabel 2
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: Variabel 3
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+- Name: Variabel 4
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
