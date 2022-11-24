@@ -23,7 +23,7 @@ Children:
   - Name: MinimumPasswordLength
     Type: PropertyType
     DataType: Byte
-    Value: 8
+    Value: 4
 - Name: Locales
   Type: BaseDataVariableType
   DataType: String

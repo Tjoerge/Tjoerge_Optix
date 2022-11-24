@@ -7,6 +7,7 @@ using System.Linq;
 using UAManagedCore.Logging;
 using FTOptix.NetLogic;
 using FTOptix.Recipe;
+using FTOptix.UI;
 #endregion
 
 public class AlarmIconNotificationLogic : BaseNetLogic
