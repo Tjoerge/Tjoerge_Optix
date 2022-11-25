@@ -1,4 +1,5 @@
 Name: Converters
+Id: g=b4b1da7c1ab88650db699b978e4b6067
 Type: FolderType
 Children:
 - Name: Variable1
@@ -7,10 +8,12 @@ Children:
   DataType: Int32
   Value: 10
 - Name: Variable2
+  Id: g=3938570f76ed0a982b1aa5a2cc7c82a9
   Type: BaseDataVariableType
   DataType: Int32
   Value: 20
 - Name: Variable3
+  Id: g=267f49f8496b4e2c2777039b4d9ac4d5
   Type: BaseDataVariableType
   DataType: Int32
   Value: 30

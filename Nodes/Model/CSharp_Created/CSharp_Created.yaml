@@ -1,23 +1,29 @@
 Name: CSharp_Created
+Id: g=78698e650def93242d23b8ba95db374a
 Type: FolderType
 Children:
 - Name: Variabel 0
+  Id: g=c8414697efba87c8f65ffac8d349f3cb
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
 - Name: Variabel 1
+  Id: g=1a5f8bd7037791639e19c1456a8ca493
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
 - Name: Variabel 2
+  Id: g=bf82f03016adbd7e1f9ad9f64e3eaf86
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
 - Name: Variabel 3
+  Id: g=16f2cd787daf9d3918e5bae3c72da1a0
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
 - Name: Variabel 4
+  Id: g=0f8ef507c426b1d4cb4715d9d05afec6
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0

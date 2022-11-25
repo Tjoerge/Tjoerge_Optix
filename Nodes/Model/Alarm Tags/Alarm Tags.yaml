@@ -1,4 +1,5 @@
 Name: Alarm Tags
+Id: g=ecc13d66b5f59ea541d4180082cd2997
 Type: FolderType
 Children:
 - Name: AlrDigital1
@@ -7,6 +8,7 @@ Children:
   DataType: Boolean
   Value: false
 - Name: AlrDigital2
+  Id: g=44ed7512eb9691c184ba67482cef3678
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false

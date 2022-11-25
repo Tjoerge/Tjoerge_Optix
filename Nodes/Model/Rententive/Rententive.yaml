@@ -1,0 +1,24 @@
+Name: Rententive
+Id: g=d52c23d3ae7fda9ca3858f7a39aab664
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=c5ff64f6d6fc91beac787157632866c5
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Id: g=65c6c9acd8348a976322589accca6cc6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=417d02aabfc2127653bac8eb1b61c47e
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Variable4
+  Id: g=a374a64a2d805213986c687712bd8ac1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0

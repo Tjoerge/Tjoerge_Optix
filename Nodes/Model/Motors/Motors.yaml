@@ -1,4 +1,5 @@
 Name: Motors
+Id: g=ac444752f56c5415631ed20ab8a29fa7
 Type: FolderType
 Children:
 - Name: Model_Motor1
@@ -6,14 +7,17 @@ Children:
   Type: Model_MotorType
   Children:
   - Name: Speed
+    Id: g=390e3622d478ea8e8ab386c7a454682f
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: SetSpeed
+    Id: g=b898641f17b9257a2875129f50dc4db7
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: CmdOffOn
+    Id: g=27c42eb0059ca63380f3b6067693056e
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -22,14 +26,17 @@ Children:
   Type: Model_MotorType
   Children:
   - Name: Speed
+    Id: g=a919a6ef093e3c4af9cb390c9a78476f
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: SetSpeed
+    Id: g=31b548dae7bb642f1b5ac57b89af9b07
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: CmdOffOn
+    Id: g=1f670ecb775898e2166e40a18e822300
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -38,14 +45,17 @@ Children:
   Type: Model_MotorType
   Children:
   - Name: Speed
+    Id: g=f03b32d618f34b873cdcc914ecefeef1
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: SetSpeed
+    Id: g=a404c2d2778873b5ccc2ec1b0e220111
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
   - Name: CmdOffOn
+    Id: g=9235a95820458527fcb4d71e7e4abdd3
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false

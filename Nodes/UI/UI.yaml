@@ -415,6 +415,22 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":71,"Namespace":3}
+      - Name: Panel13
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"127b7b30c442633420cb70f3cd48ffa8","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId

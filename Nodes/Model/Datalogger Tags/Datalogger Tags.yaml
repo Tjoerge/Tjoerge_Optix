@@ -1,15 +1,19 @@
 Name: Datalogger Tags
+Id: g=2a64a18b0de0becd72bda69a098ac11b
 Type: FolderType
 Children:
 - Name: Variable1
+  Id: g=d140fa78dc5583f23be04c476a065c0c
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
 - Name: Variable3
+  Id: g=9ea5d7e2f598587d4412d86b866f8b3b
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
 - Name: Variable2
+  Id: g=b50b67c38147db9d04379d4603301cfe
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
