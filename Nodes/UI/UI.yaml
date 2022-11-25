@@ -203,6 +203,16 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 1080.0
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: AlwaysOnTop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
 - Name: MainWindow1
   Id: g=ec8a019feac05e277f496aa6bd261b87
   Supertype: Window
@@ -461,6 +471,16 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+  - Name: FullScreen
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: AlwaysOnTop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
 - Name: MainWindow2
   Id: g=6d84de0cba0460758483c7ae33b911d0
   Supertype: Window
